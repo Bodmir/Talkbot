@@ -40,7 +40,7 @@ exports.is_present = function(nom){
 
 function db(callback){
 	var mysqlclient = mysql.createConnection({
-		host: "tcp:bodmirbot.database.windows.net,1433",
+		host: "bodmirbot.database.windows.net",
 		user: "bodmir",
 		password: "Guitariste23",
 		database: "Tvbot"
